@@ -7,6 +7,20 @@ body {
     min-height: 100%;
 }
 
+.hometitle{
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.homeheader{
+    box-shadow: 1px 1px 10px #a0a0a0;
+    height: 50px;
+    background: #a0a0a0;
+    
+}
+
 #contemt_img_principalLogo {
     padding-top: 150px;
     text-align: center;
@@ -15,14 +29,12 @@ body {
 #title {
     margin-top: 50px;
     color: #303030;
-    /*text-shadow: 2px 2px #000000;*/
     text-align: center;
 }
 
 #principalLogo {
     max-width: 500px;
     width: 90%;
-    
 }
 
 #button_session1 {
@@ -41,10 +53,13 @@ button {
     cursor: pointer;
 }
 
+.checkbox
+
 button:hover {
     transform: scale(1.05);
     background-color: #185ABC;
 }
+
 
 input {
     width: 200px;
