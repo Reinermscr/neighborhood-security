@@ -8,17 +8,27 @@ body {
 }
 
 .hometitle{
-    padding-top: 15px;
-    text-align: center;
-    margin-top: 50px;
+    font-size: 20px;
+    display: inline-block;
     font-weight: bold;
 }
 
 .homeheader{
     box-shadow: 1px 1px 10px #a0a0a0;
-    height: 50px;
+    height: 120px;
     background: #a0a0a0;
     
+}
+
+#homelogo{
+    vertical-align: middle;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+}
+#buttonback{
+    display: inline-block;
+    margin-left: 600px;
 }
 
 #contemt_img_principalLogo {
@@ -55,7 +65,7 @@ button {
 
 .checkbox
 
-button:hover {
+button:hover{
     transform: scale(1.05);
     background-color: #185ABC;
 }
