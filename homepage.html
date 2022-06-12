@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +11,89 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js"defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
 
 </head>
 
-<header class="homeheader">
-    <img id="homelogo" src="logosegurity.png" alt="Logo principal">
-    <h1 class="hometitle">Bienvenido</h1>
-    <p id="buttonback"><a href="index.html"><button>Cerrar sesion</button></a></p>
-    
-</header>
-
 <body>
 
+    <header>
+
+        <div class="homeheadersection0">
+            <img id="homelogo" src="logosegurity.png" alt="Logo principal">
+            <h1 class="hometitle">Bienvenido</h1>
+            <a href="login.html"><button>Cerrar sesion</button></a>
+        </div>
+
+        <div>
+            <nav>
+                <ul class="principallist">
+                    <li class="pricipaltitle">Informar Alerta</li>
+                    <li class="pricipaltitle">Historial</li>
+                    <li class="pricipaltitle">Noticias</li>
+                    <li class="pricipaltitle">Actualizaciones</li>
+                    <li class="pricipaltitle">Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <main>
-        
+        <div class="mapcenter">
+            <h2 class="texmapup">En el mapa se visualiza las aletas en curso.</h2>
+
+            <div id="map"></div>
+
+            <!--<div style="background-color: red; width: 720px; height: 450px; display: inline-block;">
+                <h2 style="text-align: ;">Mapa</h2>
+            </div>-->
+
+            <!-- <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5883.493207891109!2d-83.77448307340221!3d10.20008154638416!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1654922412944!5m2!1ses-419!2scr"
+                width="720" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        </div>
+
+
+        <form action="">
+
+            <input type="button" value="Crear Alerta">
+
+        </form>
+
+
     </main>
 
+    <footer class="footerhomepage">
+        <div class="boxtelemer">
+            <ul>
+                <li>Telefonos para emergencias</li>
+                <li>911 Emergencias</li>
+                <li>116 Cobro revertido internacional</li>
+                <li>117 Policía</li>
+                <li>128 Ambulancias</li>
+                <li>128 Cruz Roja</li>
+            </ul>
+        </div>
+        <div class="boxsocial">
+            <ul>
+                <li>Redes Sociales</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+                <li>Tik Tok</li>
+                <li>Link</li>
+            </ul>
+        </div>
+
+    </footer>
 
 </body>
+
 </html>

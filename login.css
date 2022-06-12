@@ -1,0 +1,31 @@
+
+.mainlogin{
+    padding: 30px;
+    text-align: center;
+}
+
+.login{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+#img-logo {
+    padding: 50px;
+    
+}
+
+#principalLogo {
+    max-width: 500px;
+}
+
+
+.footerlogin{
+    padding: 20px;
+    background-color: #2D3E50;
+    color: aliceblue;
+    text-align: center;
+    margin-top: auto;
+}
